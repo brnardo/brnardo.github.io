@@ -1,21 +1,24 @@
 var words = (function(){
   var words = [
-      'JavaScript',
-      'CSS3',
-      'HTML5',
-      'Ruby',
-      'Python',
-      'C++',
-      'jQuery',
-      'Google',
-      'Object C',
-      'Mysql'
+      'hello',
+      'hola',
+      'ciao',
+      'konnichiwa',
+      'guten tag',
+      'oi',
+      'shalom',
+      'salut',
+      'namaskar',
+      'yassou',
+      'hallo',
+      'dobro jutro',
+      'nǐ hǎo'
       ],
-    el = document.querySelector('.verb'),
+    el = document.querySelector('.hello'),
     currentIndex,
     currentWord,
     prevWord,
-    duration = 4000;
+    duration = 3000;
 
   var _getIndex = function(max, min){
     currentIndex = Math.floor(Math.random() * (max - min + 1)) + min;
@@ -33,7 +36,7 @@ var words = (function(){
   var _clear = function() {
 
     setTimeout(function(){
-      el.className = 'verb';
+      el.className = 'hello';
     }, duration/4);
   };
 
@@ -60,7 +63,7 @@ var words = (function(){
       //Fade in word
       el.classList.add(
         'js-block',
-        'js-fade-in-verb'
+        'js-fade-in-hello'
         );
 
     }, duration);
