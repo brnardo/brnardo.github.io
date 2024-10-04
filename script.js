@@ -13,7 +13,7 @@ var words = (function(){
       'hallo',
       'dobro jutro',
       'nǐ hǎo',
-      'ألسّلام عليكم
+      'ألسّلام عليكم'
       ],
     el = document.querySelector('.hello'),
     currentIndex,
