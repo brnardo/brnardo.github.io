@@ -12,7 +12,8 @@ var words = (function(){
       'yassou',
       'hallo',
       'dobro jutro',
-      'nǐ hǎo'
+      'nǐ hǎo',
+      'ألسّلام عليكم
       ],
     el = document.querySelector('.hello'),
     currentIndex,
